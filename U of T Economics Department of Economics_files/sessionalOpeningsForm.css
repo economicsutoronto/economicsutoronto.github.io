@@ -1,0 +1,72 @@
+/* $Id: sessionalOpeningsForm.css,v 1.3 2007/10/19 14:15:59 spuopolo Exp spuopolo $ */
+
+#sof_top {
+	width: 800px; 
+	border: 1px solid black;
+	font-family: Times; 
+	font-size: 14px;
+}
+
+#sof_top p {
+	font-family: Times; 
+	font-size: 12px; 
+}
+
+#sessionalOpeningsForm table {
+	width: 800px; 
+	border-collapse: collapse; 
+	empty-cells: show; 
+	border: 1px solid black;
+}
+
+#sessionalOpeningsForm .fieldLabel {
+	width: 150px; 
+	text-align: left; 
+	border: 1px solid black;
+}
+
+#sessionalOpeningsForm .fieldLabelSmall {
+	width: 25px; 
+	text-align: center; 
+	border: 1px solid black;
+}
+
+#sessionalOpeningsForm .fieldContent {
+	border: 1px solid black;
+}
+
+#sessionalOpeningsForm .fieldContentRadio {
+	border: 1px solid black;
+	text-align: center;
+}
+
+#sessionalOpeningsForm .fieldContentSelect {
+	border: 1px solid black;
+	text-align: center;
+}
+
+#sessionalOpeningsForm .fieldContentSmall {
+	text-align: left; 
+	border: 1px solid black;
+}
+
+.fieldContent .textField {
+	width: 97%; 
+	border: 0px;
+}
+
+#sessionalOpeningsForm span {
+	font-size: 9px;
+}
+
+#sessionalOpeningsForm .note {
+	text-align: center; 
+	font-weight:bold; 
+	border: 1px solid black;
+}
+
+#sessionalOpeningsForm caption{
+	text-align: left; 
+	font-weight: bold;
+}
+

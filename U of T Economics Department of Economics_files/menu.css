@@ -1,0 +1,90 @@
+/* $Id: menu.css,v 1.10 2007/06/15 19:25:14 spuopolo Exp $ */
+
+#navholder {
+	position: absolute;
+	width: 800px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .75em;
+	border: 0px solid black;
+	cursor: pointer;	
+	overflow: visible;
+	margin: 0px 0px 0px 0px;
+	z-index: 9999;
+}
+
+#navholder ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	list-style-type: none;
+	white-space: nowrap;
+}
+
+#navholder li {
+	float: left;
+	white-space: nowrap;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#navholder a {
+	display: block;
+	width: 100px;
+	height: 22px;
+	/* next line: text is vertically aligned on line of height line-height */
+	line-height: 20px;
+	text-align: center;
+	background-color: #002D6A;
+	border-right: 1px solid #ffffec;
+	border-left: 0px;
+	border-bottom: 0px;
+	border-top: 1px solid #ffffec;
+	
+}
+
+#navholder a:link, #navholder a:visited {
+	color: #f4f4f4;
+	text-decoration: none;
+}
+
+#navholder a:hover, #navholder a:active{
+	background: #6699cc;	
+	color:#ffcc00;
+}
+
+#submenu1, #submenu2, #submenu3, #submenu4, #submenu5, #submenu6, #submenu7, #submenu8{
+	display: none;
+	width: 97px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	list-style-type: none;
+}
+
+#submenu1 li, #submenu2 li, #submenu3 li, #submenu6 li {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+#sub_submenu1, #sub_submenu2, #sub_submenu3, #sub_submenu4a, #sub_submenu4b, #sub_submenu6, #sub_submenu7 {
+	display: none;
+	position: absolute;	
+	width: 97px;
+}
+
+#sub_submenu1 li, #sub_submenu2, #sub_submenu3 li, #sub_submenu4a li, #sub_submenu4b li, #sub_submenu6 li, #sub_submenu7 li {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+/* Are hardcoded values OK? */
+#sub_submenu1 { left: 100px; top: 50px; }
+#sub_submenu2 { left: 200px; top: 90px; }
+#sub_submenu3 { left: 300px; top: 50px; }
+#sub_submenu4a { left: 400px; top: 50px; }
+#sub_submenu4b { left: 400px; top: 50px; }
+#sub_submenu6 { left: 600px; top: 50px; }
+#sub_submenu7 { left: 700px; top: 45px; }
+#debug { display: none; }
+
+#about_us:hover #submenu1, #contact_us:hover #sub_submenu1, #faculty:hover #submenu2, #grad_students:hover #sub_submenu2, #research:hover #submenu3, #centres:hover #sub_submenu3, #programs:hover #sub_submenu4a, #apply:hover #sub_submenu4b, #graduate:hover #submenu4, #undergraduate:hover #submenu5, #news:hover #submenu6, #newsletter:hover #sub_submenu6, #job_openings:hover #submenu7, #sessionals:hover #sub_submenu7, #links:hover #submenu8 {
+	display: block;
+}

@@ -1,0 +1,35 @@
+/* Job Market Cadidates img foramtting override */
+#job_market {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#job_market person {
+  float: left;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+}
+
+#job_market h4 a {
+    color: black;
+    font-size: 110%
+}
+
+#job_market img {
+    position: relative;
+    float: left;
+    height: 175px;
+    width: auto;
+}
+
+#job_market text {
+  position: relative;
+  left: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+   #job_market person {
+        background-color: lightblue;
+   } 
+}

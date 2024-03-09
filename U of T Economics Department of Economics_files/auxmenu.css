@@ -1,0 +1,90 @@
+/* $Id: auxmenu.css,v 1.6 2011/05/20 22:39:37 osborne Exp $ */
+
+#auxnavholder {
+	position: absolute;
+	width: 800px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .75em;
+	border: 0px solid black;
+	cursor: pointer;	
+	overflow: visible; 
+	margin: 0px auto;
+	z-index: 1000;
+}
+
+#auxnavholder ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	list-style-type: none;
+	white-space: nowrap;
+}
+
+#auxnavholder li {
+	float: left;
+	white-space: nowrap;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#auxnavholder a {
+	display: block;
+	width: 100px;
+	height: 22px;
+	/* next line: text is vertically aligned on line of height line-height */
+	line-height: 20px;
+	text-align: center;
+	background-color: #6581a8;	
+	border-right: 1px solid #ffffec;
+	border-left: 0px;
+	border-bottom: 0px;
+	border-top: 1px solid #ffffec;
+	color: #ffffff;
+}
+
+#auxnavholder a:link, #auxnavholder a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#auxnavholder a:hover, #auxnavholder a:active{
+	background: #6699cc;
+	color:#ffff00;
+}
+
+#auxsubmenu1, #auxsubmenu2, #auxsubmenu3, #auxsubmenu4, #auxsubmenu5, #auxsubmenu6, #auxsubmenu7, #auxsubmenu8{
+	display: none;
+	width: 97px;
+	list-style-type: none;
+}
+
+#auxsubmenu1 li, #auxsubmenu2 li, #auxsubmenu3 li, #auxsubmenu6 li {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#auxsub_submenu1, #auxsub_submenu2, #auxsub_submenu3a, #auxsub_submenu3b, #auxsub_submenu4a, #auxsub_submenu4b, #auxsub_submenu6, #auxsub_submenu7, #auxsub_submenu8 {
+	display: none;
+	position: absolute;	
+	width: 75px;
+}
+
+#auxsub_submenu1 li, #auxsub_submenu2, #auxsub_submenu3a li, #auxsub_submenu3b li, #auxsub_submenu4a li, #auxsub_submenu4b li, #auxsub_submenu6 li, #auxsub_submenu7 li, #auxsub_submenu8 li {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+/* Are hardcoded values OK? */
+#auxsub_submenu1 { left: 100px; top: 25px; }
+#auxsub_submenu2 { left: 200px; top: 25px; }
+#auxsub_submenu3a { left: 300px; top: 45px; }
+#auxsub_submenu3b { left: 300px; top: 75px; }
+#auxsub_submenu4a { left: 400px; top: 60px; }
+#auxsub_submenu4b { left: 400px; top: 60px; }
+#auxsub_submenu6 { left: 600px; top: 75px; }
+#auxsub_submenu7 { left: 300px; top: 88px; }
+#auxsub_submenu8 { left: 300px; top: 125px; }
+#debug { display: none; }
+
+#list1:hover #auxsubmenu1, #list1a:hover #auxsub_submenu1, #list2:hover #auxsubmenu2, #list2a:hover #auxsub_submenu2, #list3:hover #auxsubmenu3, #list3a:hover #auxsub_submenu3a, #list3b:hover #auxsub_submenu3b, #list3c:hover #suxsub_submenu4b, #list4:hover #auxsubmenu4, #list5:hover #auxsubmenu5, #list6:hover #auxsubmenu6, #pastCourses:hover #auxsub_submenu6, #list6a:hover #auxsub_submenu6, #pastCourses:hover #auxsub_submenu7, #list7:hover #auxsubmenu7, #list8:hover #auxsubmenu8 {
+	display: block;
+}
